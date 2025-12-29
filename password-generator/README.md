@@ -1,16 +1,42 @@
-# React + Vite
+# Password Generator (React Practice Project) 🔐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple password generator built using React that creates strong, customizable passwords based on user preferences like length, numbers, and special characters.
 
-Currently, two official plugins are available:
+This project was created to practice **React hooks, state management, and basic UI interactions**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Generate random passwords instantly
+- Adjustable password length (8–100 characters)
+- Option to include:
+  - Numbers
+  - Special characters
+- One-click copy to clipboard
+- Clean and responsive UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React
+- JavaScript (ES6)
+- Tailwind CSS
+- Vite
+
+---
+
+## Learning Outcomes
+
+Through this project, I practiced:
+- `useState` for managing UI state
+- `useEffect` for auto-generating passwords
+- `useCallback` for optimized functions
+- `useRef` for copying text to clipboard
+- Controlled inputs (range & checkboxes)
+- Basic Tailwind CSS styling
+
+---
+
+This project was built for **practice and fun** while learning React and experimenting with hooks.
