@@ -1,16 +1,51 @@
-# React + Vite
+# Currency Converter (React Practice Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple currency converter built using React that converts values between different currencies using real-time exchange rates fetched from a public currency API.
 
-Currently, two official plugins are available:
+This project was created to practice **custom hooks, API integration, and component-based design in React**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Convert currencies in real time
+- Swap between "From" and "To" currencies
+- Dynamic currency options fetched from API
+- Clean and responsive UI
+- Uses custom React hook for data fetching
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## API Used
+
+Exchange rate data is fetched from:
+https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/{currency}.json
+
+The API provides up-to-date currency conversion rates in JSON format.
+
+---
+
+## Tech Stack
+
+- React
+- JavaScript (ES6)
+- Tailwind CSS
+- Vite
+- REST API (Currency API)
+
+---
+
+## Learning Outcomes
+
+Through this project, I practiced:
+- Creating and using **custom hooks**
+- Fetching data using `useEffect`
+- Managing state with `useState`
+- Handling form submission in React
+- Reusable components (`InputBox`)
+- Currency conversion logic
+- Basic UI design with Tailwind CSS
+
+---
+
+This project was built purely for **practice and fun** while learning React, hooks, and API integration.
